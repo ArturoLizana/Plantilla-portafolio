@@ -40,7 +40,7 @@ $headers .= "To: Sitio web <https://portefolio.arlidev.fr/> \r\n";
 //REMITENTE (NOMBRE/APELLIDO - EMAIL)
 //ASUNTO 
 //CUERPO 
-$rta = mail('arturo@arlidev.fr', "Mensaje web: $asunto", $body, $headers);
+$rta = mail('arturo@ar.com', "Mensaje web: $asunto", $body, $headers);
 //var_dump($rta);
 
 //header("Location: gracias.html");
